@@ -1,63 +1,63 @@
 # DeepSocial - Social Media Profile Researcher
 
-![image](https://github.com/user-attachments/assets/3799de9e-7c35-49fc-a011-4436540cb739)
+![image](https://github.com/user-attachments/assets/1e4f6b9e-623d-499c-9400-82660ac98a57)
 
 
-DeepSocial é uma ferramenta baseada em Python que permite pesquisar perfis de usuários em várias plataformas de mídia social, lojas online, plataformas de trabalho, plataformas de streaming e até sites de hacking. Com o DeepSocial, você pode reunir rapidamente informações sobre a presença online de indivíduos e explorar seus perfis em diferentes redes.
+DeepSocial is a Python-based tool that allows you to search for user profiles across various social media platforms, online stores, work platforms, streaming services, and even hacking sites. With DeepSocial, you can quickly gather information about an individual's online presence and explore their profiles across different networks.
 
-## Recursos
-- Pesquisar em várias plataformas como Twitter, Instagram, LinkedIn, YouTube e muitas outras.
-- Verificar a disponibilidade de usuários em lojas online como eBay, Amazon, Etsy e outras.
-- Explorar plataformas de trabalho e freelancing como Upwork, Fiverr e Freelancer.
-- Verificar perfis em serviços de streaming como Spotify, SoundCloud e YouTube Music.
-- Encontrar usuários em sites de hacking como Hack The Box, TryHackMe e VulnHub.
+## Features
+- Search multiple platforms like Twitter, Instagram, LinkedIn, YouTube, and many others.
+- Check user availability on online stores like eBay, Amazon, Etsy, and more.
+- Explore work and freelancing platforms such as Upwork, Fiverr, and Freelancer.
+- Verify profiles on streaming services like Spotify, SoundCloud, and YouTube Music.
+- Find users on hacking-related sites like Hack The Box, TryHackMe, and VulnHub.
 
-## Instalação
-Para instalar a ferramenta DeepSocial, clone este repositório para a sua máquina local:
+## Installation
+To install the DeepSocial tool, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/sous4sec/DeepSocial.git
 cd DeepSocial
 ```
 
-Instale as dependências necessárias:
+Install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Uso
-Após instalar as dependências necessárias, você pode rodar o script para pesquisar um perfil de usuário. A sintaxe básica do comando é:
+## Usage
+After installing the required dependencies, you can run the script to search for a user profile. The basic command syntax is:
 
 ```bash
 python DeepSocial.py <username> [--c {all,sm,s,w,st,ht}]
 ```
 
-- `<username>` é o nome de usuário que você deseja pesquisar em várias plataformas.
-- `--c` permite especificar as categorias em que pesquisar:
-  - `all`: Pesquisar em todas as categorias (padrão).
-  - `sm`: Pesquisar apenas nas plataformas de mídia social.
-  - `s`: Pesquisar apenas em lojas.
-  - `w`: Pesquisar apenas em plataformas de trabalho.
-  - `st`: Pesquisar apenas em plataformas de streaming.
-  - `ht`: Pesquisar apenas em sites de hacking.
+- `<username>` is the username you want to search for across various platforms.
+- `--c` allows you to specify the categories to search in:
+  - `all`: Search all categories (default).
+  - `sm`: Search only on social media platforms.
+  - `s`: Search only in online stores.
+  - `w`: Search only in work platforms.
+  - `st`: Search only in streaming platforms.
+  - `ht`: Search only in hacking-related sites.
 
-### Exemplo
-Para pesquisar o usuário `john_doe` em todas as categorias, você rodaria:
+### Example
+To search for the user `john_doe` across all categories, run:
 
 ```bash
 python DeepSocial.py john_doe --c all
 ```
 
-Para pesquisar o usuário `john_doe` apenas nas plataformas de mídia social:
+To search for the user `john_doe` only on social media platforms:
 
 ```bash
 python DeepSocial.py john_doe --c sm
 ```
 
-## Contribuindo
-Sinta-se à vontade para fazer um fork do repositório e enviar pull requests. Quaisquer sugestões ou melhorias são bem-vindas.
+## Contributing
+Feel free to fork the repository and submit pull requests. Any suggestions or improvements are welcome.
 
-## Contato
-Para mais informações, você pode me contatar via GitHub: [@sous4sec](https://github.com/sous4sec)
+## Contact
+For more information, you can contact me via GitHub: [@sous4sec](https://github.com/sous4sec)
 
