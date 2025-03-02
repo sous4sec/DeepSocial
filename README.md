@@ -1,6 +1,7 @@
 # DeepSocial - Social Media Profile Researcher
 
-![DeepSocial](image.png)
+![image](https://github.com/user-attachments/assets/3799de9e-7c35-49fc-a011-4436540cb739)
+
 
 DeepSocial é uma ferramenta baseada em Python que permite pesquisar perfis de usuários em várias plataformas de mídia social, lojas online, plataformas de trabalho, plataformas de streaming e até sites de hacking. Com o DeepSocial, você pode reunir rapidamente informações sobre a presença online de indivíduos e explorar seus perfis em diferentes redes.
 
