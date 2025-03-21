@@ -179,7 +179,7 @@ def process_arguments():
 
     parser.add_argument(
         'username', 
-        nargs='?',  # Tornando o argumento 'username' opcional
+        nargs='?',
         help="[i] The username to search for (e.g., 'john_doe'). This is the identifier used across different platforms."
     )
     
@@ -199,8 +199,7 @@ def process_arguments():
     )
 
     args = parser.parse_args()
-
-    # Se nenhum argumento for passado (como no caso de rodar apenas `python DeepSocial.py`)
+    
     if not args.username:
         print(f"\nError: The following arguments are required: username\n")
         print(f"Usage: DeepSocial.py [-h] [--c {{all,sm,s,w,st,ht}}] username\n")
