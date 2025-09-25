@@ -58,6 +58,4 @@ python DeepSocial.py john_doe --c sm
 ## Contributing
 Feel free to fork the repository and submit pull requests. Any suggestions or improvements are welcome.
 
-## Contact
-For more information, you can contact me via GitHub: [@sous4sec](https://github.com/sous4sec)
 
